@@ -1,0 +1,13 @@
+.grid {
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(3, 1fr);    /* 3 rows */
+    gap: 10px; /* Optional: add space between grid items */
+}
+
+.turn-highlight{
+    color: black;
+
+}
